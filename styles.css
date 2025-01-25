@@ -1,0 +1,85 @@
+:root {
+      --primary-color: #3498db;
+      --secondary-color: #2ecc71;
+      --accent-color: #e74c3c;
+      --neutral-color: #2c3e50;
+      --base-color: #ecf0f1;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: var(--base-color);
+      color: var(--neutral-color);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 30px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    .profile-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .social-links a {
+      color: white;
+      font-size: 24px;
+      margin: 0 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .social-links a:hover {
+      transform: scale(1.2);
+    }
+
+    .section {
+      background-color: white;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .skill-category {
+      flex-basis: 48%;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    h1, h2, h3 {
+      color: var(--primary-color);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: var(--neutral-color);
+      color: white;
+    }
